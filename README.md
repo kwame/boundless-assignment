@@ -1,5 +1,8 @@
 # boundless-assignment
 
+At this time the application can be reached on 
+[http://54.176.187.245:3000/](http://54.176.187.245:3000/)
+
 This terraform code will deploy the following
 
 - vpc with 2 public and 2 private subnets

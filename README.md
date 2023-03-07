@@ -8,10 +8,10 @@ This terraform code will deploy the following
 - One security group to allow access to port 80 (port 22 was only added for testing purposes)
 - One ECS cluster with Fargate
 - One task definition which will use the 387492257775.dkr.ecr.us-west-1.amazonaws.com/nodejs-calc:latest container 
--- There are currently 2 versions for the nodejs-calc image, v0.2 and latest
+- There are currently 2 versions for the nodejs-calc image, v0.2 and latest
 - Create an ECS task for the nodejs-calc container
 - Create one service 
 
 To-Do
 - [ ] Create the terraform logic to add an ALB for the ECS Service
-- [ ] 
+- [ ] Add SSL certificate to ALB

@@ -4,7 +4,7 @@ resource "aws_security_group" "allow_http" {
   vpc_id      = module.vpc.vpc_id
 
   ingress {
-    description      = "http from VPC"
+    description      = "http from public network"
     from_port        = 80
     to_port          = 80
     protocol         = "tcp"
@@ -12,7 +12,7 @@ resource "aws_security_group" "allow_http" {
   }
 
   ingress {
-    description      = "ssh from VPC"
+    description      = "ssh from public network"
     from_port        = 22
     to_port          = 22
     protocol         = "tcp"

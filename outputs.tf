@@ -22,3 +22,18 @@ output "default_security_group_id" {
   description = "The ID of the security group created by default on VPC creation"
   value       = module.vpc.default_security_group_id
 }
+
+# output "cluster_arn" {
+#   description = "ARN that identifies the cluster"
+#   value       = data.ecs.cluster_arn
+# }
+
+# output "cluster_id" {
+#   description = "ID that identifies the cluster"
+#   value       = data.ecs.cluster_id
+# }
+
+# output "cluster_name" {
+#   description = "Name that identifies the cluster"
+#   value       = data.ecs.cluster_name
+# }
